@@ -1,0 +1,21 @@
+{
+  "name": "unitivefiles",
+  "version": "1.0.0",
+  "description": "Combine files of the same type into a single file.",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "dist/nodejs/index.js",
+  "bin": {
+    "unitivefiles": "dist/nodejs/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/nodejs/index.js",
+    "dev": "ts-node src/nodejs/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

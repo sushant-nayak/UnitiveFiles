@@ -1,0 +1,2 @@
+# No external dependencies required for the Python version
+# Uses only standard library modules (os, sys, pathlib)
